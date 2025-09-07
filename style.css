@@ -1,0 +1,209 @@
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.brand img{
+    width: 50px;
+    height: 50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color:green
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+    color: white;
+}
+.explore{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.explore:hover{
+    background-color:grey;
+    color: white;
+}
+.explore a{
+    color: black;
+    text-decoration: none;
+}
+nav ul input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #44444E;
+
+}
+.install{
+    color:grey;    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+   
+}
+.install:hover{
+    color: white;
+}
+.install a{
+    color: grey;
+}
+.bottom{
+    position: sticky;
+    bottom: 0px;
+    background-color: #212121;
+    height: 80px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile i{
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    color: lightslategray;
+}
+.profile i:hover{
+    color: gray;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url("spotifyBanner-1.png");
+    background-size: cover;
+}
+
+.progressBar{
+  width: 100vh;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.icons{
+    margin-bottom: 14px;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+   
+}
+.icons i:hover{
+    color: green;
+}
+.icons p{
+    position: absolute;
+    left: 10px;
+    font-family: 'Varela Round';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: #44444E;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.songitem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+   width: 80%;
+    color: black;
+    margin: 12px 0px;
+    border-radius: 20px;
+    gap: 75px;
+    align-items: center;
+}
+.songitem img{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin-right: 15px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.timestamp i:hover{
+    color: green;
+}
+.songitemcontainer{
+    margin-top: 35px;
+}
+
+#masterVolume{
+    position: absolute;
+    right: 10px;
+    
+}
+#volumeBar{
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.current-time{
+    position: absolute;
+    left: 245px;
+    font-family: 'Varela Round';
+    font-size: 15px;
+    font-weight: bold;
+    top:13px;
+    margin-left: 10px;
+    color: white;
+}
+.total-duration{
+    position: absolute;
+    right: 245px;
+    font-family: 'Varela Round';
+    font-size: 15px;
+    font-weight: bold;
+    top:13px;
+    margin-right: 10px;
+    color: white;
+}
+
+
+    
+
+
+
+
+
+
+

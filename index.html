@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify symbol.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <div class="searchbar">
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                <input type="text" placeholder="What do you want to listen to?">
+            </div>
+            <div class="explore"><a href="https://open.spotify.com/premium">Explore premium</a></div>
+            <div class="install">
+                <a href="https://open.spotify.com/download">Install App</a>
+                <i class="fa-solid fa-download"></i>
+            </div>
+            <div class="profile">
+               <a href="https://open.spotify.com/user/312p3vdcq6cwjsglsthmkl5crzim"><i class="fa-solid fa-user"></i></a>
+               <a href="https://open.spotify.com/content-feed"><i class="fa-solid fa-bell"></i></a>
+               <a href="https://open.spotify.com/collection/tracks"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+       <div class="songList">
+            <h1>Best of NCS - No copyright sounds</h1>
+            <div class="songitemcontainer">
+              <div class="songitem">
+                <img  alt="1">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">01:54<i id="1" class="fa-solid songitemplay fa-play"></i></span></span>
+              </div>
+            <div class="songitem">
+               <img  alt="2">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">03:27<i id="2" class="fa-solid songitemplay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+               <img  alt="3">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">0:41<i id="3" class="fa-solid songitemplay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+               <img  alt="4">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">03:36<i id="4" class="fa-solid songitemplay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+               <img  alt="5">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">05:09<i id="5" class="fa-solid songitemplay fa-play"></i></span></span>
+            </div>
+            <div class="songitem">
+               <img  alt="6">
+                <span class="songname">loki verse 2.0</span>
+                <span class="songlistplay"><span class="timestamp">04:09<i id="6" class="fa-solid songitemplay fa-play"></i></span></span>
+            </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <span class="current-time">00:00</span>
+        <input type="range" min="0" max="100" value="0" class="progressBar">
+        <span class="total-duration">01:54</span>
+        <div class="icons">
+            <p id="currentSong">Loki Verse 2.0</p>
+            <i class="fa-solid fa-backward" id="prev"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+            <i class="fa-solid fa-volume-high" id="masterVolume"></i>
+            <input type="range" min="0" max="100" value="100" id="volumeBar" >
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+</html>
